@@ -1,0 +1,3747 @@
+{
+  "DEMO-2026-0101": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0101",
+      "codigo_expediente": "DEMO-EXP-2026-0101",
+      "nombre_procedimiento": "Servicio integral de vigilancia intramuros para oficinas centrales",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de servicio integral de vigilancia intramuros para oficinas centrales, en 3 inmuebles ubicados en Ciudad de México.",
+      "dependencia": "Instituto Nacional de Ejemplo (ficticio)",
+      "unidad_compradora": "Dirección de Recursos Materiales (ficticia)",
+      "entidad_federativa": "Ciudad de México",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "alta",
+      "razonamiento": "El perfil operativo es estándar (48 a 60 elementos sin arma en turnos 24x24) y la experiencia exigida de 3 años es alcanzable. La evaluación es binaria y no hay visita obligatoria. El punto a cuidar es la pena convencional del 2.5% diario, que obliga a un plan sólido de cobertura de faltas.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "Pena convencional alta (2.5% por día natural de atraso).",
+          "fuentes": [
+            "Modelo de contrato.docx"
+          ],
+          "cita_literal": "Se aplicará una pena convencional del 2.5% por cada día natural de atraso en el inicio del servicio."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se aceptan proposiciones conjuntas, lo que permite asociarse para cubrir requisitos.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se aceptará la presentación de proposiciones conjuntas."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $9,800,000.00 M.N. y un monto máximo de $14,200,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "14200000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $9,800,000.00 M.N. y un monto máximo de $14,200,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "48",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 48 y un máximo de 60 elementos de seguridad, distribuidos en 3 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-17T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 17 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.5",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.5% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Servicio integral de vigilancia intramuros para oficinas centrales (3 inmuebles, 24x24)",
+      "numero_total_elementos": 48,
+      "numero_total_elementos_maximo": 60,
+      "personal_requerido": [
+        "28 elementos en Edificio sede Ejemplo, Av. Imaginaria 120 (ficticio) · turno 24x24",
+        "12 elementos en Anexo administrativo Norte (ficticio) · turno 24x24",
+        "8 elementos en Almacén de bienes muebles (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Edificio sede Ejemplo, Av. Imaginaria 120 (ficticio)",
+          "cantidad_elementos": 28,
+          "turno": "24x24",
+          "notas": "Incluye control de acceso vehicular"
+        },
+        {
+          "inmueble": "Anexo administrativo Norte (ficticio)",
+          "cantidad_elementos": 12,
+          "turno": "24x24",
+          "notas": null
+        },
+        {
+          "inmueble": "Almacén de bienes muebles (ficticio)",
+          "cantidad_elementos": 8,
+          "turno": "12x12",
+          "notas": "Solo días hábiles"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 48,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1,
+        "supervisores_inmuebles": 3
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas, en turnos 24x24",
+      "sedes_o_ubicaciones": [
+        "Edificio sede Ejemplo, Av. Imaginaria 120 (ficticio)",
+        "Anexo administrativo Norte (ficticio)",
+        "Almacén de bienes muebles (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Ciudad de México"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-17T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-09T10:00:00",
+      "fecha_fallo": "2026-09-23T13:00:00",
+      "fecha_firma_contrato": "2026-09-28T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 1 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 1 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": true,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 9800000,
+      "monto_maximo": 14200000,
+      "presupuesto_autorizado": 14200000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.5,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$650 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Relación de inmuebles.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:01:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0102": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0102",
+      "codigo_expediente": "DEMO-EXP-2026-0102",
+      "nombre_procedimiento": "Vigilancia armada y desarmada para almacenes regionales",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia armada y desarmada para almacenes regionales, en 4 inmuebles ubicados en Jalisco.",
+      "dependencia": "Secretaría de Servicios Simulados (ficticia)",
+      "unidad_compradora": "Subdirección de Adquisiciones (ficticia)",
+      "entidad_federativa": "Jalisco",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": null,
+      "confianza_evaluacion": "media",
+      "razonamiento": "El volumen es manejable, pero se exigen 6 elementos armados y un inventario mínimo de 8 armas registradas. Sin confirmar que el permiso federal vigente cubre ambas modalidades no es posible concluir la factibilidad. La evaluación por puntos premia experiencia y capacitación documentada.",
+      "tipo_evaluacion": "puntos_y_porcentajes",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "6 elementos armados: requiere permiso con modalidad adecuada e inventario registrado.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "De ese total, 6 elementos deberán portar arma de fuego al amparo del permiso correspondiente."
+        },
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Evaluación por puntos y porcentajes: la experiencia documentada pesa en la adjudicación.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Las proposiciones se evaluarán mediante el criterio de puntos y porcentajes; la propuesta técnica vale hasta 60 puntos."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $6,100,000.00 M.N. y un monto máximo de $8,700,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "8700000",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $6,100,000.00 M.N. y un monto máximo de $8,700,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "36",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 36 elementos de seguridad, distribuidos en 4 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-02T11:00:00",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 2 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia armada y desarmada para almacenes regionales (4 inmuebles, 12x12)",
+      "numero_total_elementos": 36,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "12 elementos en Almacén regional Poniente (ficticio) · turno 12x12",
+        "10 elementos en Almacén regional Sur (ficticio) · turno 12x12",
+        "9 elementos en Centro de distribución Periférico (ficticio) · turno 12x12",
+        "5 elementos en Bodega de resguardo documental (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Almacén regional Poniente (ficticio)",
+          "cantidad_elementos": 12,
+          "turno": "12x12",
+          "notas": "2 elementos armados"
+        },
+        {
+          "inmueble": "Almacén regional Sur (ficticio)",
+          "cantidad_elementos": 10,
+          "turno": "12x12",
+          "notas": "2 elementos armados"
+        },
+        {
+          "inmueble": "Centro de distribución Periférico (ficticio)",
+          "cantidad_elementos": 9,
+          "turno": "12x12",
+          "notas": "2 elementos armados"
+        },
+        {
+          "inmueble": "Bodega de resguardo documental (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "12x12",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": true,
+        "cantidad_guardias_armados": 6,
+        "cantidad_guardias_desarmados": 30,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": 8,
+      "modalidades_permiso_federal": [
+        "Seguridad privada en bienes",
+        "Seguridad privada a personas"
+      ],
+      "entidades_federativas_permiso_minimas": 1,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas, en turnos 12x12",
+      "sedes_o_ubicaciones": [
+        "Almacén regional Poniente (ficticio)",
+        "Almacén regional Sur (ficticio)",
+        "Centro de distribución Periférico (ficticio)",
+        "Bodega de resguardo documental (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Jalisco"
+      ],
+      "experiencia_minima_anios": 4,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados",
+        "Permiso federal de seguridad privada vigente"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-02T11:00:00",
+      "fecha_junta_aclaraciones": "2026-08-25T10:00:00",
+      "fecha_fallo": "2026-09-08T13:00:00",
+      "fecha_firma_contrato": "2026-09-13T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 16 de septiembre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 16 de septiembre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": [
+        "El licitante deberá contar con permiso federal de seguridad privada vigente con cobertura en al menos 1 entidad federativa."
+      ]
+    },
+    "economicos": {
+      "monto_minimo": 6100000,
+      "monto_maximo": 8700000,
+      "presupuesto_autorizado": 8700000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 15.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 15% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.pdf",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Oficio de suficiencia presupuestal.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:02:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0103": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0103",
+      "codigo_expediente": "DEMO-EXP-2026-0103",
+      "nombre_procedimiento": "Vigilancia hospitalaria con control de accesos y apoyo en códigos de emergencia",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia hospitalaria con control de accesos y apoyo en códigos de emergencia, en 2 inmuebles ubicados en Nuevo León.",
+      "dependencia": "Hospital General de Muestra (ficticio)",
+      "unidad_compradora": "Coordinación de Servicios Generales (ficticia)",
+      "entidad_federativa": "Nuevo León",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": false,
+      "confianza_evaluacion": "alta",
+      "razonamiento": "La visita obligatoria a instalaciones estaba programada antes de la fecha de corte y su inasistencia es causa de desechamiento. Además se exigen 5 años de experiencia y personal capacitado en códigos de emergencia hospitalaria. Con esos requisitos excluyentes no es factible participar.",
+      "tipo_evaluacion": "puntos_y_porcentajes",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "Visita obligatoria a instalaciones con fecha anterior al corte: su inasistencia es causa de desechamiento.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "La visita a las instalaciones es obligatoria y se llevará a cabo el 5 de septiembre de 2026 a las 09:30 horas; la inasistencia será causa de desechamiento."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "Experiencia mínima de 5 años en seguridad privada.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El licitante deberá acreditar una experiencia mínima de 5 años en servicios de seguridad privada."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "Protocolos sectoriales obligatorios: exige capacitación específica antes del inicio.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El personal deberá conocer y aplicar: código de emergencia hospitalaria por colores; protocolo de resguardo en área de urgencias."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "Pena convencional alta (2.5% por día natural de atraso).",
+          "fuentes": [
+            "Modelo de contrato.docx"
+          ],
+          "cita_literal": "Se aplicará una pena convencional del 2.5% por cada día natural de atraso en el inicio del servicio."
+        },
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Evaluación por puntos y porcentajes: la experiencia documentada pesa en la adjudicación.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Las proposiciones se evaluarán mediante el criterio de puntos y porcentajes; la propuesta técnica vale hasta 60 puntos."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "24900000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $18,500,000.00 M.N. y un monto máximo de $24,900,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "72",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 72 y un máximo de 90 elementos de seguridad, distribuidos en 2 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-11T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 11 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.5",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.5% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia hospitalaria con control de accesos y apoyo en códigos de emergencia (2 inmuebles, 24x24, 12x12)",
+      "numero_total_elementos": 72,
+      "numero_total_elementos_maximo": 90,
+      "personal_requerido": [
+        "52 elementos en Torre de hospitalización (ficticio) · turno 24x24",
+        "20 elementos en Unidad de consulta externa (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Torre de hospitalización (ficticio)",
+          "cantidad_elementos": 52,
+          "turno": "24x24",
+          "notas": "Incluye urgencias y acceso de ambulancias"
+        },
+        {
+          "inmueble": "Unidad de consulta externa (ficticio)",
+          "cantidad_elementos": 20,
+          "turno": "12x12",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 72,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 2,
+        "supervisores_inmuebles": 4,
+        "capacitador_interno_dc5": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": true,
+        "incluye_cctv": true,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": true,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 45,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 4,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [
+        "Código de emergencia hospitalaria por colores",
+        "Protocolo de resguardo en área de urgencias"
+      ],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Hospitalización 24x24; consulta externa 12x12 de lunes a sábado",
+      "sedes_o_ubicaciones": [
+        "Torre de hospitalización (ficticio)",
+        "Unidad de consulta externa (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Nuevo León"
+      ],
+      "experiencia_minima_anios": 5,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 45 minutos.",
+        "Se realizarán al menos 4 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-11T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-03T10:00:00",
+      "fecha_fallo": "2026-09-17T13:00:00",
+      "fecha_firma_contrato": "2026-09-22T12:00:00",
+      "fecha_visita_obligatoria": "2026-09-05T09:30:00",
+      "requiere_visita_obligatoria": true,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 25 de septiembre de 2026 al 31 de diciembre de 2027",
+      "vigencia_servicio": "Del 25 de septiembre de 2026 al 31 de diciembre de 2027",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": [
+        "La visita a las instalaciones es obligatoria y se llevará a cabo el 5 de septiembre de 2026 a las 09:30 horas; la inasistencia será causa de desechamiento."
+      ]
+    },
+    "economicos": {
+      "monto_minimo": 18500000,
+      "monto_maximo": 24900000,
+      "presupuesto_autorizado": 24900000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": true,
+      "pena_convencional_pct_dia": 2.5,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Relación de inmuebles.pdf",
+      "Formato de propuesta económica.docx",
+      "Oficio de suficiencia presupuestal.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:03:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0104": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0104",
+      "codigo_expediente": "DEMO-EXP-2026-0104",
+      "nombre_procedimiento": "Vigilancia perimetral extramuros con rondines nocturnos",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia perimetral extramuros con rondines nocturnos, en 1 inmueble ubicado en Puebla.",
+      "dependencia": "Comisión Federal de Pruebas (ficticia)",
+      "unidad_compradora": "Gerencia de Abastecimiento (ficticia)",
+      "entidad_federativa": "Puebla",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "media",
+      "razonamiento": "Servicio acotado a un solo inmueble con 18 elementos y experiencia mínima de 2 años. El anexo técnico llegó escaneado, así que los datos operativos provienen de OCR y conviene verificarlos contra el documento. Si la lectura se confirma, es una oportunidad de bajo riesgo.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "El anexo técnico es un escaneado: los datos operativos provienen de OCR y deben verificarse.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El prestador del servicio deberá asignar un mínimo de 18 elementos de seguridad, distribuidos en 1 inmueble."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $2,900,000.00 M.N. y un monto máximo de $3,600,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "3600000",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $2,900,000.00 M.N. y un monto máximo de $3,600,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "18",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 18 elementos de seguridad, distribuidos en 1 inmueble."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-25T11:00:00",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 25 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "1.5",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 1.5% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia perimetral extramuros con rondines nocturnos (1 inmueble, 24x24)",
+      "numero_total_elementos": 18,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "18 elementos en Planta de pruebas Oriente, perímetro exterior (ficticio) · turno 24x24"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Planta de pruebas Oriente, perímetro exterior (ficticio)",
+          "cantidad_elementos": 18,
+          "turno": "24x24",
+          "notas": "Rondines cada 2 horas"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 18,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": false,
+        "vigilancia_extramuros": true,
+        "incluye_cctv": false,
+        "incluye_alarmas": true,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 6,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con chaleco reflejante",
+        "Radio de comunicación portátil",
+        "Lámpara de largo alcance",
+        "Vehículo para rondines perimetrales"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas, en turnos 24x24",
+      "sedes_o_ubicaciones": [
+        "Planta de pruebas Oriente, perímetro exterior (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Puebla"
+      ],
+      "experiencia_minima_anios": 2,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 6 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-25T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-17T10:00:00",
+      "fecha_fallo": "2026-10-01T13:00:00",
+      "fecha_firma_contrato": "2026-10-06T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 9 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 9 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 2900000,
+      "monto_maximo": 3600000,
+      "presupuesto_autorizado": 3600000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 1.5,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.pdf",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx"
+    ],
+    "timestamp_generacion": "2026-09-15T07:04:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0105": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0105",
+      "codigo_expediente": "DEMO-EXP-2026-0105",
+      "nombre_procedimiento": "Vigilancia de campus universitario y control de acceso peatonal",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia de campus universitario y control de acceso peatonal, en 2 inmuebles ubicados en Querétaro.",
+      "dependencia": "Universidad Tecnológica Ficticia del Centro (ficticia)",
+      "unidad_compradora": "Departamento de Compras (ficticio)",
+      "entidad_federativa": "Querétaro",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "alta",
+      "razonamiento": "Requisitos operativos estándar y evaluación binaria. Se aceptan proposiciones conjuntas y se promueve la participación de MIPYMES, lo que abre margen competitivo. No se detectan requisitos excluyentes.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se aceptan proposiciones conjuntas, lo que permite asociarse para cubrir requisitos.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se aceptará la presentación de proposiciones conjuntas."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $5,400,000.00 M.N. y un monto máximo de $7,200,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "7200000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $5,400,000.00 M.N. y un monto máximo de $7,200,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "40",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 40 elementos de seguridad, distribuidos en 2 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-22T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 22 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia de campus universitario y control de acceso peatonal (2 inmuebles, 12x12)",
+      "numero_total_elementos": 40,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "28 elementos en Campus principal (ficticio) · turno 12x12",
+        "12 elementos en Campus de posgrado (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Campus principal (ficticio)",
+          "cantidad_elementos": 28,
+          "turno": "12x12",
+          "notas": "Accesos peatonales y estacionamiento"
+        },
+        {
+          "inmueble": "Campus de posgrado (ficticio)",
+          "cantidad_elementos": 12,
+          "turno": "12x12",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 40,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "supervisores_inmuebles": 2
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, en turnos 12x12",
+      "sedes_o_ubicaciones": [
+        "Campus principal (ficticio)",
+        "Campus de posgrado (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Querétaro"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-22T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-14T10:00:00",
+      "fecha_fallo": "2026-09-28T13:00:00",
+      "fecha_firma_contrato": "2026-10-03T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 6 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 6 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": true,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 5400000,
+      "monto_maximo": 7200000,
+      "presupuesto_autorizado": 7200000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Formato de propuesta económica.docx"
+    ],
+    "timestamp_generacion": "2026-09-15T07:05:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0106": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0106",
+      "codigo_expediente": "DEMO-EXP-2026-0106",
+      "nombre_procedimiento": "Vigilancia y monitoreo de CCTV en centro de datos, con limpieza de áreas comunes",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia y monitoreo de CCTV en centro de datos, con limpieza de áreas comunes, en 1 inmueble ubicado en Yucatán.",
+      "dependencia": "Agencia Nacional de Datos Sintéticos (ficticia)",
+      "unidad_compradora": "Unidad de Administración y Finanzas (ficticia)",
+      "entidad_federativa": "Yucatán",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801",
+        "35801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": null,
+      "confianza_evaluacion": "baja",
+      "razonamiento": "El expediente es mixto: además de vigilancia incluye limpieza de áreas comunes, una partida fuera del giro. La junta de aclaraciones no precisó si las partidas se adjudican por separado y el acta llegó escaneada. Con la información disponible la evaluación es indeterminada.",
+      "tipo_evaluacion": "puntos_y_porcentajes",
+      "puntos_criticos": [
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Expediente mixto: incluye una partida ajena a vigilancia.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "El procedimiento comprende las partidas 33801 y 35801."
+        },
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Evaluación por puntos y porcentajes: la experiencia documentada pesa en la adjudicación.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Las proposiciones se evaluarán mediante el criterio de puntos y porcentajes; la propuesta técnica vale hasta 60 puntos."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": [
+        "35801 · Servicios de limpieza (ajena a vigilancia)"
+      ]
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "6000000",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "Se celebrará un contrato cerrado por un monto total de $6,000,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "22",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 22 elementos de seguridad, distribuidos en 1 inmueble."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-26T11:00:00",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 26 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia y monitoreo de CCTV en centro de datos, con limpieza de áreas comunes (1 inmueble, 24x24)",
+      "numero_total_elementos": 22,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "22 elementos en Centro de datos Península (ficticio) · turno 24x24"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Centro de datos Península (ficticio)",
+          "cantidad_elementos": 22,
+          "turno": "24x24",
+          "notas": "Incluye 4 monitoristas de CCTV"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 22,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": true,
+        "incluye_alarmas": true,
+        "incluye_arcos_metales": false,
+        "otros": [
+          "Limpieza de áreas comunes (partida distinta)"
+        ]
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": true,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas, en turnos 24x24",
+      "sedes_o_ubicaciones": [
+        "Centro de datos Península (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Yucatán"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-26T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-18T10:00:00",
+      "fecha_fallo": "2026-10-02T13:00:00",
+      "fecha_firma_contrato": "2026-10-07T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 10 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 10 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": null,
+      "monto_maximo": 6000000,
+      "presupuesto_autorizado": 6000000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Cerrado",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 20.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 20% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.pdf",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:06:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0107": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0107",
+      "codigo_expediente": "DEMO-EXP-2026-0107",
+      "nombre_procedimiento": "Vigilancia armada en recinto portuario de ejemplo",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia armada en recinto portuario de ejemplo, en 5 inmuebles ubicados en Veracruz.",
+      "dependencia": "Servicio Nacional de Maquetas (ficticio)",
+      "unidad_compradora": "Gerencia de Recursos Materiales (ficticia)",
+      "entidad_federativa": "Veracruz",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": false,
+      "confianza_evaluacion": "media",
+      "razonamiento": "Se exige permiso federal con cobertura en al menos 3 entidades, 10 elementos armados y un inventario mínimo de 12 armas registradas. La pena convencional del 3% diario eleva la exposición financiera. Para un perfil con permiso en una sola entidad, no es factible.",
+      "tipo_evaluacion": "puntos_y_porcentajes",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "El permiso federal debe cubrir al menos 3 entidades federativas.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El licitante deberá contar con permiso federal de seguridad privada vigente con cobertura en al menos 3 entidades federativas."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "Experiencia mínima de 5 años en seguridad privada.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El licitante deberá acreditar una experiencia mínima de 5 años en servicios de seguridad privada."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "10 elementos armados: requiere permiso con modalidad adecuada e inventario registrado.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "De ese total, 10 elementos deberán portar arma de fuego al amparo del permiso correspondiente."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "Pena convencional alta (3.0% por día natural de atraso).",
+          "fuentes": [
+            "Modelo de contrato.docx"
+          ],
+          "cita_literal": "Se aplicará una pena convencional del 3.0% por cada día natural de atraso en el inicio del servicio."
+        },
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Evaluación por puntos y porcentajes: la experiencia documentada pesa en la adjudicación.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Las proposiciones se evaluarán mediante el criterio de puntos y porcentajes; la propuesta técnica vale hasta 60 puntos."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "19800000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $15,200,000.00 M.N. y un monto máximo de $19,800,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "64",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 64 elementos de seguridad, distribuidos en 5 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-08T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 8 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "3.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 3.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia armada en recinto portuario de ejemplo (5 inmuebles, 24x24, 12x12)",
+      "numero_total_elementos": 64,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "16 elementos en Muelle de carga 1 (ficticio) · turno 24x24",
+        "14 elementos en Muelle de carga 2 (ficticio) · turno 24x24",
+        "14 elementos en Patio de contenedores (ficticio) · turno 24x24",
+        "12 elementos en Aduana interior de ejemplo (ficticio) · turno 24x24",
+        "8 elementos en Oficinas administrativas del recinto (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Muelle de carga 1 (ficticio)",
+          "cantidad_elementos": 16,
+          "turno": "24x24",
+          "notas": "4 elementos armados"
+        },
+        {
+          "inmueble": "Muelle de carga 2 (ficticio)",
+          "cantidad_elementos": 14,
+          "turno": "24x24",
+          "notas": "2 elementos armados"
+        },
+        {
+          "inmueble": "Patio de contenedores (ficticio)",
+          "cantidad_elementos": 14,
+          "turno": "24x24",
+          "notas": "2 elementos armados"
+        },
+        {
+          "inmueble": "Aduana interior de ejemplo (ficticio)",
+          "cantidad_elementos": 12,
+          "turno": "24x24",
+          "notas": "2 elementos armados"
+        },
+        {
+          "inmueble": "Oficinas administrativas del recinto (ficticio)",
+          "cantidad_elementos": 8,
+          "turno": "12x12",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": true,
+        "cantidad_guardias_armados": 10,
+        "cantidad_guardias_desarmados": 54,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 2,
+        "supervisores_inmuebles": 5
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": true,
+        "incluye_cctv": true,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": 12,
+      "modalidades_permiso_federal": [
+        "Seguridad privada en bienes",
+        "Seguridad privada a personas"
+      ],
+      "entidades_federativas_permiso_minimas": 3,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas; oficinas en turno 12x12",
+      "sedes_o_ubicaciones": [
+        "Muelle de carga 1 (ficticio)",
+        "Muelle de carga 2 (ficticio)",
+        "Patio de contenedores (ficticio)",
+        "Aduana interior de ejemplo (ficticio)",
+        "Oficinas administrativas del recinto (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Veracruz"
+      ],
+      "experiencia_minima_anios": 5,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados",
+        "Permiso federal de seguridad privada vigente"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-08T11:00:00",
+      "fecha_junta_aclaraciones": "2026-08-31T10:00:00",
+      "fecha_fallo": "2026-09-14T13:00:00",
+      "fecha_firma_contrato": "2026-09-19T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 22 de septiembre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 22 de septiembre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": [
+        "El licitante deberá contar con permiso federal de seguridad privada vigente con cobertura en al menos 3 entidades federativas."
+      ]
+    },
+    "economicos": {
+      "monto_minimo": 15200000,
+      "monto_maximo": 19800000,
+      "presupuesto_autorizado": 19800000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 3.0,
+      "poliza_responsabilidad_civil_pct": 20.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 20% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Relación de inmuebles.pdf",
+      "Oficio de suficiencia presupuestal.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:07:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0108": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0108",
+      "codigo_expediente": "DEMO-EXP-2026-0108",
+      "nombre_procedimiento": "Vigilancia para delegación regional",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia para delegación regional, en 2 inmuebles ubicados en Sonora.",
+      "dependencia": "Instituto Nacional de Ejemplo (ficticio)",
+      "unidad_compradora": "Delegación Regional Noroeste (ficticia)",
+      "entidad_federativa": "Sonora",
+      "tipo_procedimiento": "Invitación a cuando menos tres personas",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "alta",
+      "razonamiento": "Invitación a cuando menos tres personas con 14 elementos y requisitos básicos. Montos moderados, evaluación binaria y sin visita obligatoria. Es una oportunidad de entrada con bajo riesgo operativo.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $1,900,000.00 M.N. y un monto máximo de $2,400,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "2400000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $1,900,000.00 M.N. y un monto máximo de $2,400,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "14",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 14 elementos de seguridad, distribuidos en 2 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-24T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 24 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia para delegación regional (2 inmuebles, 12x12)",
+      "numero_total_elementos": 14,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "10 elementos en Delegación regional, edificio principal (ficticio) · turno 12x12",
+        "4 elementos en Módulo de atención ciudadana (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Delegación regional, edificio principal (ficticio)",
+          "cantidad_elementos": 10,
+          "turno": "12x12",
+          "notas": null
+        },
+        {
+          "inmueble": "Módulo de atención ciudadana (ficticio)",
+          "cantidad_elementos": 4,
+          "turno": "12x12",
+          "notas": "Lunes a sábado"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 14,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a sábado, en turnos 12x12",
+      "sedes_o_ubicaciones": [
+        "Delegación regional, edificio principal (ficticio)",
+        "Módulo de atención ciudadana (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Sonora"
+      ],
+      "experiencia_minima_anios": 2,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-24T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-16T10:00:00",
+      "fecha_fallo": "2026-09-30T13:00:00",
+      "fecha_firma_contrato": "2026-10-05T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 8 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 8 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 1900000,
+      "monto_maximo": 2400000,
+      "presupuesto_autorizado": 2400000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx"
+    ],
+    "timestamp_generacion": "2026-09-15T07:08:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0109": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0109",
+      "codigo_expediente": "DEMO-EXP-2026-0109",
+      "nombre_procedimiento": "Custodia de archivo documental y control de préstamo de expedientes",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de custodia de archivo documental y control de préstamo de expedientes, en 1 inmueble ubicado en Guanajuato.",
+      "dependencia": "Fideicomiso de Archivos de Prueba (ficticio)",
+      "unidad_compradora": "Gerencia Administrativa (ficticia)",
+      "entidad_federativa": "Guanajuato",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "media",
+      "razonamiento": "Servicio pequeño y de baja complejidad, con deductivas por registros incompletos en la bitácora de préstamo. Es factible si se asigna personal con experiencia en control documental.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $1,400,000.00 M.N. y un monto máximo de $1,800,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "1800000",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $1,400,000.00 M.N. y un monto máximo de $1,800,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "12",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 12 elementos de seguridad, distribuidos en 1 inmueble."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-16T11:00:00",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 16 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Custodia de archivo documental y control de préstamo de expedientes (1 inmueble, 8 horas, 24x24)",
+      "numero_total_elementos": 12,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "12 elementos en Archivo de concentración (ficticio) · turno 8 horas / 24x24"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Archivo de concentración (ficticio)",
+          "cantidad_elementos": 12,
+          "turno": "8 horas / 24x24",
+          "notas": "Control de préstamo de expedientes"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 12,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme ejecutivo",
+        "Radio de comunicación portátil",
+        "Lector de gafetes",
+        "Bitácora de préstamo de expedientes"
+      ],
+      "horarios_cobertura": "Lunes a viernes en turnos de 8 horas; sábados y domingos 24x24",
+      "sedes_o_ubicaciones": [
+        "Archivo de concentración (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Guanajuato"
+      ],
+      "experiencia_minima_anios": 2,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-16T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-08T10:00:00",
+      "fecha_fallo": "2026-09-22T13:00:00",
+      "fecha_firma_contrato": "2026-09-27T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 30 de septiembre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 30 de septiembre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 1400000,
+      "monto_maximo": 1800000,
+      "presupuesto_autorizado": 1800000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$400 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.pdf",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Oficio de suficiencia presupuestal.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:09:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0110": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0110",
+      "codigo_expediente": "DEMO-EXP-2026-0110",
+      "nombre_procedimiento": "Vigilancia de centros regionales en seis localidades",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia de centros regionales en seis localidades, en 6 inmuebles ubicados en Chiapas.",
+      "dependencia": "Centro Regional de Demostración (ficticio)",
+      "unidad_compradora": "Coordinación Administrativa (ficticia)",
+      "entidad_federativa": "Chiapas",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": null,
+      "confianza_evaluacion": "media",
+      "razonamiento": "Se exige oficina operativa en la entidad y cobertura en seis localidades distantes entre sí. Dos documentos clave llegaron escaneados y una página de la relación de inmuebles tuvo baja legibilidad. Hace falta revisar el original antes de decidir.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "Se exige oficina operativa en Chiapas desde la presentación de la proposición.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "El licitante deberá acreditar una oficina operativa en Chiapas al momento de presentar su proposición."
+        },
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "El anexo técnico es un escaneado: los datos operativos provienen de OCR y deben verificarse.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El prestador del servicio deberá asignar un mínimo de 30 elementos de seguridad, distribuidos en 6 inmuebles."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $4,200,000.00 M.N. y un monto máximo de $5,900,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "5900000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $4,200,000.00 M.N. y un monto máximo de $5,900,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "30",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 30 elementos de seguridad, distribuidos en 6 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-15T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 15 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia de centros regionales en seis localidades (6 inmuebles, 24x24)",
+      "numero_total_elementos": 30,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "5 elementos en Centro regional Uno (ficticio) · turno 24x24",
+        "5 elementos en Centro regional Dos (ficticio) · turno 24x24",
+        "5 elementos en Centro regional Tres (ficticio) · turno 24x24",
+        "5 elementos en Centro regional Cuatro (ficticio) · turno 24x24",
+        "5 elementos en Centro regional Cinco (ficticio) · turno 24x24",
+        "5 elementos en Centro regional Seis (ficticio) · turno 24x24"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Centro regional Uno (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "24x24",
+          "notas": null
+        },
+        {
+          "inmueble": "Centro regional Dos (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "24x24",
+          "notas": null
+        },
+        {
+          "inmueble": "Centro regional Tres (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "24x24",
+          "notas": null
+        },
+        {
+          "inmueble": "Centro regional Cuatro (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "24x24",
+          "notas": null
+        },
+        {
+          "inmueble": "Centro regional Cinco (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "24x24",
+          "notas": null
+        },
+        {
+          "inmueble": "Centro regional Seis (ficticio)",
+          "cantidad_elementos": 5,
+          "turno": "24x24",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 30,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": true,
+      "entidad_oficina_requerida": "Chiapas",
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas, en turnos 24x24",
+      "sedes_o_ubicaciones": [
+        "Centro regional Uno (ficticio)",
+        "Centro regional Dos (ficticio)",
+        "Centro regional Tres (ficticio)",
+        "Centro regional Cuatro (ficticio)",
+        "Centro regional Cinco (ficticio)",
+        "Centro regional Seis (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Chiapas"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados",
+        "Comprobante de domicilio de oficina operativa en Chiapas"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-15T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-07T10:00:00",
+      "fecha_fallo": "2026-09-21T13:00:00",
+      "fecha_firma_contrato": "2026-09-26T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 29 de septiembre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 29 de septiembre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": [
+        "El licitante deberá acreditar una oficina operativa en Chiapas al momento de presentar su proposición."
+      ]
+    },
+    "economicos": {
+      "monto_minimo": 4200000,
+      "monto_maximo": 5900000,
+      "presupuesto_autorizado": 5900000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Relación de inmuebles.pdf",
+      "Acta de junta de aclaraciones.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:10:00",
+    "errores_extraccion": [
+      "Relación de inmuebles.pdf: una página con baja legibilidad en el OCR simulado; la distribución por sede puede estar incompleta"
+    ]
+  },
+  "DEMO-2026-0111": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0111",
+      "codigo_expediente": "DEMO-EXP-2026-0111",
+      "nombre_procedimiento": "Vigilancia en unidad médica de ejemplo",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia en unidad médica de ejemplo, en 1 inmueble ubicado en Oaxaca.",
+      "dependencia": "Hospital General de Muestra (ficticio)",
+      "unidad_compradora": "Unidad Médica Regional Sur (ficticia)",
+      "entidad_federativa": "Oaxaca",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "media",
+      "razonamiento": "A diferencia de otros expedientes hospitalarios, aquí la experiencia requerida es de 3 años y no hay visita obligatoria. El protocolo sectorial se cubre con capacitación previa al inicio del servicio. Es factible con un plan de capacitación documentado.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "Protocolos sectoriales obligatorios: exige capacitación específica antes del inicio.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El personal deberá conocer y aplicar: protocolo de acceso a áreas restringidas de la unidad médica."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $3,700,000.00 M.N. y un monto máximo de $4,600,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "4600000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $3,700,000.00 M.N. y un monto máximo de $4,600,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "26",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 26 elementos de seguridad, distribuidos en 1 inmueble."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-27T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 27 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia en unidad médica de ejemplo (1 inmueble, 12x12)",
+      "numero_total_elementos": 26,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "26 elementos en Unidad médica regional (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Unidad médica regional (ficticio)",
+          "cantidad_elementos": 26,
+          "turno": "12x12",
+          "notas": "Incluye filtro sanitario en acceso principal"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 26,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [
+        "Protocolo de acceso a áreas restringidas de la unidad médica"
+      ],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, en turnos 12x12",
+      "sedes_o_ubicaciones": [
+        "Unidad médica regional (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Oaxaca"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-27T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-19T10:00:00",
+      "fecha_fallo": "2026-10-03T13:00:00",
+      "fecha_firma_contrato": "2026-10-08T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 11 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 11 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 3700000,
+      "monto_maximo": 4600000,
+      "presupuesto_autorizado": 4600000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:11:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0112": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0112",
+      "codigo_expediente": "DEMO-EXP-2026-0112",
+      "nombre_procedimiento": "Vigilancia armada en patios de maniobras y talleres",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia armada en patios de maniobras y talleres, en 3 inmuebles ubicados en Baja California.",
+      "dependencia": "Organismo de Infraestructura Imaginaria (ficticio)",
+      "unidad_compradora": "Gerencia de Adquisiciones (ficticia)",
+      "entidad_federativa": "Baja California",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": false,
+      "confianza_evaluacion": "alta",
+      "razonamiento": "Se requiere oficina operativa en la entidad al presentar la propuesta, 8 elementos armados y un inventario mínimo de 10 armas. Son requisitos excluyentes para un perfil sin presencia local ni armamento registrado. No es factible.",
+      "tipo_evaluacion": "puntos_y_porcentajes",
+      "puntos_criticos": [
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "Se exige oficina operativa en Baja California desde la presentación de la proposición.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "El licitante deberá acreditar una oficina operativa en Baja California al momento de presentar su proposición."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "alta",
+          "descripcion": "El permiso federal debe cubrir al menos 2 entidades federativas.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "El licitante deberá contar con permiso federal de seguridad privada vigente con cobertura en al menos 2 entidades federativas."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "8 elementos armados: requiere permiso con modalidad adecuada e inventario registrado.",
+          "fuentes": [
+            "Anexo técnico.pdf"
+          ],
+          "cita_literal": "De ese total, 8 elementos deberán portar arma de fuego al amparo del permiso correspondiente."
+        },
+        {
+          "tipo": "riesgo",
+          "severidad": "media",
+          "descripcion": "Pena convencional alta (2.5% por día natural de atraso).",
+          "fuentes": [
+            "Modelo de contrato.docx"
+          ],
+          "cita_literal": "Se aplicará una pena convencional del 2.5% por cada día natural de atraso en el inicio del servicio."
+        },
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Evaluación por puntos y porcentajes: la experiencia documentada pesa en la adjudicación.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Las proposiciones se evaluarán mediante el criterio de puntos y porcentajes; la propuesta técnica vale hasta 60 puntos."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "11300000",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $8,900,000.00 M.N. y un monto máximo de $11,300,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "44",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 44 elementos de seguridad, distribuidos en 3 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-19T11:00:00",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 19 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.5",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.5% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia armada en patios de maniobras y talleres (3 inmuebles, 24x24, 12x12)",
+      "numero_total_elementos": 44,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "18 elementos en Patio de maniobras Norte (ficticio) · turno 24x24",
+        "16 elementos en Talleres de mantenimiento (ficticio) · turno 24x24",
+        "10 elementos en Almacén de refacciones (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Patio de maniobras Norte (ficticio)",
+          "cantidad_elementos": 18,
+          "turno": "24x24",
+          "notas": "4 elementos armados"
+        },
+        {
+          "inmueble": "Talleres de mantenimiento (ficticio)",
+          "cantidad_elementos": 16,
+          "turno": "24x24",
+          "notas": "4 elementos armados"
+        },
+        {
+          "inmueble": "Almacén de refacciones (ficticio)",
+          "cantidad_elementos": 10,
+          "turno": "12x12",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": true,
+        "cantidad_guardias_armados": 8,
+        "cantidad_guardias_desarmados": 36,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": true,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": 10,
+      "modalidades_permiso_federal": [
+        "Seguridad privada en bienes",
+        "Seguridad privada a personas"
+      ],
+      "entidades_federativas_permiso_minimas": 2,
+      "requiere_oficina_local": true,
+      "entidad_oficina_requerida": "Baja California",
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Patios y talleres 24x24; almacén 12x12",
+      "sedes_o_ubicaciones": [
+        "Patio de maniobras Norte (ficticio)",
+        "Talleres de mantenimiento (ficticio)",
+        "Almacén de refacciones (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Baja California"
+      ],
+      "experiencia_minima_anios": 4,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados",
+        "Permiso federal de seguridad privada vigente",
+        "Comprobante de domicilio de oficina operativa en Baja California"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-19T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-11T10:00:00",
+      "fecha_fallo": "2026-09-25T13:00:00",
+      "fecha_firma_contrato": "2026-09-30T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 3 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 3 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": [
+        "El licitante deberá acreditar una oficina operativa en Baja California al momento de presentar su proposición.",
+        "El licitante deberá contar con permiso federal de seguridad privada vigente con cobertura en al menos 2 entidades federativas."
+      ]
+    },
+    "economicos": {
+      "monto_minimo": 8900000,
+      "monto_maximo": 11300000,
+      "presupuesto_autorizado": 11300000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.5,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.pdf",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Formato de propuesta económica.docx",
+      "Oficio de suficiencia presupuestal.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:12:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0113": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0113",
+      "codigo_expediente": "DEMO-EXP-2026-0113",
+      "nombre_procedimiento": "Vigilancia para oficinas administrativas y bodega",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia para oficinas administrativas y bodega, en 2 inmuebles ubicados en Estado de México.",
+      "dependencia": "Secretaría de Servicios Simulados (ficticia)",
+      "unidad_compradora": "Dirección General de Administración (ficticia)",
+      "entidad_federativa": "Estado de México",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "alta",
+      "razonamiento": "Requisitos estándar, sin personal armado y con evaluación binaria. La bodega exige rondines cada hora en el turno nocturno, lo que conviene reflejar en el costeo. Es factible.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $3,900,000.00 M.N. y un monto máximo de $5,100,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "5100000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $3,900,000.00 M.N. y un monto máximo de $5,100,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "28",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 28 elementos de seguridad, distribuidos en 2 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-08-04T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 4 de agosto de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia para oficinas administrativas y bodega (2 inmuebles, 12x12)",
+      "numero_total_elementos": 28,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "20 elementos en Oficinas administrativas Oriente (ficticio) · turno 12x12",
+        "8 elementos en Bodega general (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Oficinas administrativas Oriente (ficticio)",
+          "cantidad_elementos": 20,
+          "turno": "12x12",
+          "notas": null
+        },
+        {
+          "inmueble": "Bodega general (ficticio)",
+          "cantidad_elementos": 8,
+          "turno": "12x12",
+          "notas": "Rondines cada hora en turno nocturno"
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 28,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 8,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, en turnos 12x12",
+      "sedes_o_ubicaciones": [
+        "Oficinas administrativas Oriente (ficticio)",
+        "Bodega general (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Estado de México"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 8 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-08-04T11:00:00",
+      "fecha_junta_aclaraciones": "2026-07-27T10:00:00",
+      "fecha_fallo": "2026-08-10T13:00:00",
+      "fecha_firma_contrato": "2026-08-15T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 18 de agosto de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 18 de agosto de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 3900000,
+      "monto_maximo": 5100000,
+      "presupuesto_autorizado": 5100000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Relación de inmuebles.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:13:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0114": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0114",
+      "codigo_expediente": "DEMO-EXP-2026-0114",
+      "nombre_procedimiento": "Vigilancia de unidad académica foránea",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia de unidad académica foránea, en 1 inmueble ubicado en Michoacán.",
+      "dependencia": "Universidad Tecnológica Ficticia del Centro (ficticia)",
+      "unidad_compradora": "Unidad Académica Foránea (ficticia)",
+      "entidad_federativa": "Michoacán",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": true,
+      "confianza_evaluacion": "media",
+      "razonamiento": "Servicio de un solo inmueble con 16 elementos. La plantilla es pequeña, pero el turno 24x24 exige un esquema de relevos confiable en una localidad foránea. Factible con supervisión regional.",
+      "tipo_evaluacion": "binaria",
+      "puntos_criticos": [
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.pdf"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $2,200,000.00 M.N. y un monto máximo de $2,800,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "2800000",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $2,200,000.00 M.N. y un monto máximo de $2,800,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "16",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 16 elementos de seguridad, distribuidos en 1 inmueble."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-09-29T11:00:00",
+        "fuente": "Convocatoria.pdf",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 29 de septiembre de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia de unidad académica foránea (1 inmueble, 24x24)",
+      "numero_total_elementos": 16,
+      "numero_total_elementos_maximo": null,
+      "personal_requerido": [
+        "16 elementos en Unidad académica foránea (ficticio) · turno 24x24"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Unidad académica foránea (ficticio)",
+          "cantidad_elementos": 16,
+          "turno": "24x24",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 16,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": false,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": false,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, 24 horas, en turnos 24x24",
+      "sedes_o_ubicaciones": [
+        "Unidad académica foránea (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Michoacán"
+      ],
+      "experiencia_minima_anios": 2,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-09-29T11:00:00",
+      "fecha_junta_aclaraciones": "2026-09-21T10:00:00",
+      "fecha_fallo": "2026-10-05T13:00:00",
+      "fecha_firma_contrato": "2026-10-10T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 13 de octubre de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 13 de octubre de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 2200000,
+      "monto_maximo": 2800000,
+      "presupuesto_autorizado": 2800000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.pdf",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx"
+    ],
+    "timestamp_generacion": "2026-09-15T07:14:00",
+    "errores_extraccion": []
+  },
+  "DEMO-2026-0115": {
+    "identificacion": {
+      "numero_procedimiento": "DEMO-2026-0115",
+      "codigo_expediente": "DEMO-EXP-2026-0115",
+      "nombre_procedimiento": "Vigilancia con arcos detectores y control de visitantes",
+      "objeto_contrato": "La convocante requiere la contratación del servicio de vigilancia con arcos detectores y control de visitantes, en 2 inmuebles ubicados en Coahuila.",
+      "dependencia": "Agencia Nacional de Datos Sintéticos (ficticia)",
+      "unidad_compradora": "Dirección de Servicios Generales (ficticia)",
+      "entidad_federativa": "Coahuila",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "partidas": [
+        "33801"
+      ]
+    },
+    "evaluacion": {
+      "cumplimos_requisitos": null,
+      "confianza_evaluacion": "media",
+      "razonamiento": "La evaluación por puntos y porcentajes da peso alto a contratos previos con arcos detectores, información que no está en los documentos disponibles. Los requisitos operativos son alcanzables, pero sin la tabla de puntos completa la factibilidad queda indeterminada.",
+      "tipo_evaluacion": "puntos_y_porcentajes",
+      "puntos_criticos": [
+        {
+          "tipo": "observacion",
+          "severidad": "media",
+          "descripcion": "Evaluación por puntos y porcentajes: la experiencia documentada pesa en la adjudicación.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Las proposiciones se evaluarán mediante el criterio de puntos y porcentajes; la propuesta técnica vale hasta 60 puntos."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Se promueve la participación de MIPYMES.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se promueve la participación de micro, pequeñas y medianas empresas conforme a la normativa aplicable."
+        },
+        {
+          "tipo": "oportunidad",
+          "severidad": "baja",
+          "descripcion": "Contrato abierto: el monto máximo deja margen para ampliar la plantilla.",
+          "fuentes": [
+            "Convocatoria.docx"
+          ],
+          "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $6,600,000.00 M.N. y un monto máximo de $9,400,000.00 M.N., antes del Impuesto al Valor Agregado."
+        }
+      ],
+      "partidas_no_vigilancia_detectadas": []
+    },
+    "citas_clave": [
+      {
+        "campo": "monto_maximo",
+        "valor": "9400000",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "Se celebrará un contrato abierto con un monto mínimo de $6,600,000.00 M.N. y un monto máximo de $9,400,000.00 M.N., antes del Impuesto al Valor Agregado."
+      },
+      {
+        "campo": "numero_total_elementos",
+        "valor": "34",
+        "fuente": "Anexo técnico.pdf",
+        "cita_literal": "El prestador del servicio deberá asignar un mínimo de 34 y un máximo de 42 elementos de seguridad, distribuidos en 2 inmuebles."
+      },
+      {
+        "campo": "fecha_apertura",
+        "valor": "2026-06-30T11:00:00",
+        "fuente": "Convocatoria.docx",
+        "cita_literal": "El acto de presentación y apertura de proposiciones se llevará a cabo el 30 de junio de 2026 a las 11:00 horas."
+      },
+      {
+        "campo": "garantia_cumplimiento_pct",
+        "valor": "10",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "El proveedor otorgará una garantía de cumplimiento por el 10% del monto máximo del contrato, dentro de los 10 días naturales siguientes a la firma."
+      },
+      {
+        "campo": "pena_convencional_pct_dia",
+        "valor": "2.0",
+        "fuente": "Modelo de contrato.docx",
+        "cita_literal": "Se aplicará una pena convencional del 2.0% por cada día natural de atraso en el inicio del servicio."
+      }
+    ],
+    "tecnicos": {
+      "servicio_solicitado": "Vigilancia con arcos detectores y control de visitantes (2 inmuebles, 12x12)",
+      "numero_total_elementos": 34,
+      "numero_total_elementos_maximo": 42,
+      "personal_requerido": [
+        "24 elementos en Edificio corporativo (ficticio) · turno 12x12",
+        "10 elementos en Centro de capacitación (ficticio) · turno 12x12"
+      ],
+      "distribucion_inmuebles": [
+        {
+          "inmueble": "Edificio corporativo (ficticio)",
+          "cantidad_elementos": 24,
+          "turno": "12x12",
+          "notas": "Dos arcos detectores en acceso principal"
+        },
+        {
+          "inmueble": "Centro de capacitación (ficticio)",
+          "cantidad_elementos": 10,
+          "turno": "12x12",
+          "notas": null
+        }
+      ],
+      "perfil_personal": {
+        "armado": false,
+        "cantidad_guardias_armados": null,
+        "cantidad_guardias_desarmados": 34,
+        "edad_minima": 20,
+        "edad_maxima": 50,
+        "escolaridad_minima": "Secundaria",
+        "requisitos_adicionales": [
+          "Sin antecedentes penales",
+          "Examen médico vigente",
+          "Evaluación psicométrica aprobada"
+        ]
+      },
+      "equipo_supervision": {
+        "ejecutivo_cuenta": 1,
+        "coordinador_operativo": 1
+      },
+      "alcance_servicio": {
+        "vigilancia_intramuros": true,
+        "vigilancia_extramuros": false,
+        "incluye_cctv": true,
+        "incluye_alarmas": false,
+        "incluye_arcos_metales": true,
+        "otros": []
+      },
+      "capacitacion": {
+        "cursos_dc3": [
+          "Primeros auxilios",
+          "Uso de radio de comunicación",
+          "Protección civil y evacuación"
+        ],
+        "porcentaje_dc3_inicial": 60.0,
+        "plazo_dc3_completo_dias": 10,
+        "estandares_conocer": [
+          "Vigilancia de inmuebles (estándar de competencia)"
+        ],
+        "cantidad_capacitadores_dc5": 1,
+        "frecuencia_capacitacion_recurrente": "2 veces por año",
+        "otras_certificaciones": [
+          "ISO 9001 (deseable)"
+        ]
+      },
+      "tiempo_cobertura_faltas_minutos": 60,
+      "tolerancia_retardo_minutos": 15,
+      "rondines_minimo_por_turno": 3,
+      "permite_doblete_turno": false,
+      "inventario_armas_minimo": null,
+      "modalidades_permiso_federal": [],
+      "entidades_federativas_permiso_minimas": null,
+      "requiere_oficina_local": false,
+      "entidad_oficina_requerida": null,
+      "requiere_linea_telefonica_exclusiva": false,
+      "codigos_sectoriales": [],
+      "examen_medico_frecuencia": "Certificado médico anual",
+      "requiere_examen_psicometrico": true,
+      "requiere_examen_toxicologico": true,
+      "equipamiento_exigido": [
+        "Uniforme completo con gafete de identificación",
+        "Radio de comunicación portátil",
+        "Lámpara recargable",
+        "Bitácora de novedades por turno"
+      ],
+      "horarios_cobertura": "Lunes a domingo, en turnos 12x12",
+      "sedes_o_ubicaciones": [
+        "Edificio corporativo (ficticio)",
+        "Centro de capacitación (ficticio)"
+      ],
+      "cobertura_geografica": [
+        "Coahuila"
+      ],
+      "experiencia_minima_anios": 3,
+      "requisitos_tecnicos_listado": [
+        "Las faltas de personal deberán cubrirse en un plazo máximo de 60 minutos.",
+        "Se realizarán al menos 3 rondines por turno, con registro en bitácora.",
+        "Al menos el 60% del personal deberá contar con constancia DC-3 al presentar la proposición; el resto, dentro de los 10 días hábiles posteriores al fallo."
+      ]
+    },
+    "legales": {
+      "documentos_obligatorios": [
+        "Acta constitutiva y poderes del representante legal",
+        "Constancia de situación fiscal vigente",
+        "Opinión de cumplimiento de obligaciones fiscales en sentido positivo",
+        "Escrito de no encontrarse en supuestos de impedimento para contratar",
+        "Registro vigente como prestador de servicios especializados"
+      ],
+      "garantia_cumplimiento_pct": 10.0,
+      "garantia_seriedad_pct": null,
+      "plazos_entrega_dias": null,
+      "fecha_apertura": "2026-06-30T11:00:00",
+      "fecha_junta_aclaraciones": "2026-06-22T10:00:00",
+      "fecha_fallo": "2026-07-06T13:00:00",
+      "fecha_firma_contrato": "2026-07-11T12:00:00",
+      "fecha_visita_obligatoria": null,
+      "requiere_visita_obligatoria": false,
+      "dias_entrega_garantia_tras_firma": 10,
+      "plataforma_electronica": "Plataforma electrónica de contrataciones (simulada)",
+      "plazo_contrato": "Del 14 de julio de 2026 al 31 de diciembre de 2026",
+      "vigencia_servicio": "Del 14 de julio de 2026 al 31 de diciembre de 2026",
+      "ley_aplicable": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+      "permite_mipymes": true,
+      "permite_participacion_conjunta": false,
+      "requisitos_legales_listado": []
+    },
+    "economicos": {
+      "monto_minimo": 6600000,
+      "monto_maximo": 9400000,
+      "presupuesto_autorizado": 9400000,
+      "moneda": "MXN",
+      "forma_pago": "Mensualidades vencidas, 20 días naturales tras la aceptación del comprobante fiscal",
+      "anticipo": false,
+      "anticipo_pct": null,
+      "tipo_contrato": "Abierto por monto",
+      "es_plurianual": false,
+      "pena_convencional_pct_dia": 2.0,
+      "poliza_responsabilidad_civil_pct": 10.0,
+      "dias_pago_deducible_robo": 10,
+      "deductivas_descripcion": [
+        "$600 por elemento y turno no cubierto",
+        "10% del precio diario por elemento sin uniforme o equipo completo"
+      ],
+      "requisitos_economicos_listado": [
+        "El pago se realizará en mensualidades vencidas, dentro de los 20 días naturales posteriores a la aceptación del comprobante fiscal.",
+        "El proveedor contratará una póliza de responsabilidad civil por el equivalente al 10% del monto máximo."
+      ]
+    },
+    "modelo_usado": "Ficha precalculada (demo, sin IA en vivo)",
+    "archivos_procesados": [
+      "Convocatoria.docx",
+      "Anexo técnico.pdf",
+      "Modelo de contrato.docx",
+      "Acta de junta de aclaraciones.pdf",
+      "Relación de inmuebles.pdf",
+      "Formato de propuesta económica.docx",
+      "Oficio de suficiencia presupuestal.pdf"
+    ],
+    "timestamp_generacion": "2026-09-15T07:15:00",
+    "errores_extraccion": []
+  }
+}

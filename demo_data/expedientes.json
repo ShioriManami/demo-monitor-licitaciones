@@ -1,0 +1,1512 @@
+{
+  "version": 1,
+  "fecha_corte": "2026-09-15",
+  "descripcion": "Dataset 100% sintético para la demo del monitor de licitaciones. Dependencias, sedes, montos, textos y fichas son inventados; no corresponden a procedimientos reales.",
+  "expedientes": [
+    {
+      "id": "DEMO-2026-0101",
+      "codigo_expediente": "DEMO-EXP-2026-0101",
+      "nombre_procedimiento": "Servicio integral de vigilancia intramuros para oficinas centrales",
+      "dependencia": "Instituto Nacional de Ejemplo (ficticio)",
+      "siglas": "INEJ",
+      "unidad_compradora": "Dirección de Recursos Materiales (ficticia)",
+      "entidad_federativa": "Ciudad de México",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Recepción de proposiciones",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-02",
+      "fecha_junta_aclaraciones": "2026-09-09T10:00:00",
+      "fecha_apertura": "2026-09-17T11:00:00",
+      "fecha_fallo": "2026-09-23T13:00:00",
+      "monto_minimo": 9800000,
+      "monto_maximo": 14200000,
+      "numero_guardias": 48,
+      "numero_guardias_maximo": 60,
+      "turnos": [
+        "24x24"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 64,
+          "tamano_kb": 1237,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1236,
+          "tiempos": {
+            "descarga_seg": 1.6,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 3.7
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 22,
+          "tamano_kb": 1684,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1479,
+          "tiempos": {
+            "descarga_seg": 1.7,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.1
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 18,
+          "tamano_kb": 357,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1417,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.4
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 6,
+          "tamano_kb": 1656,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 36,
+          "tiempos": {
+            "descarga_seg": 1.5,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 27.0,
+            "extraccion_seg": 0.6
+          }
+        },
+        {
+          "nombre": "Relación de inmuebles.pdf",
+          "tipo": "Relación de inmuebles",
+          "formato": "pdf",
+          "paginas": 3,
+          "tamano_kb": 209,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2483,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 40.4
+    },
+    {
+      "id": "DEMO-2026-0102",
+      "codigo_expediente": "DEMO-EXP-2026-0102",
+      "nombre_procedimiento": "Vigilancia armada y desarmada para almacenes regionales",
+      "dependencia": "Secretaría de Servicios Simulados (ficticia)",
+      "siglas": "SSSIM",
+      "unidad_compradora": "Subdirección de Adquisiciones (ficticia)",
+      "entidad_federativa": "Jalisco",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Fallo emitido",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-08-18",
+      "fecha_junta_aclaraciones": "2026-08-25T10:00:00",
+      "fecha_apertura": "2026-09-02T11:00:00",
+      "fecha_fallo": "2026-09-08T13:00:00",
+      "monto_minimo": 6100000,
+      "monto_maximo": 8700000,
+      "numero_guardias": 36,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.pdf",
+          "tipo": "Convocatoria",
+          "formato": "pdf",
+          "paginas": 58,
+          "tamano_kb": 4897,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1641,
+          "tiempos": {
+            "descarga_seg": 4.8,
+            "clasificacion_seg": 1.0,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 3.6
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 19,
+          "tamano_kb": 1640,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1912,
+          "tiempos": {
+            "descarga_seg": 1.5,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.6
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 16,
+          "tamano_kb": 445,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2634,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.0
+          }
+        },
+        {
+          "nombre": "Oficio de suficiencia presupuestal.pdf",
+          "tipo": "Oficio de suficiencia presupuestal",
+          "formato": "pdf",
+          "paginas": 2,
+          "tamano_kb": 837,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 25,
+          "tiempos": {
+            "descarga_seg": 1.1,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 7.2,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 31.3
+    },
+    {
+      "id": "DEMO-2026-0103",
+      "codigo_expediente": "DEMO-EXP-2026-0103",
+      "nombre_procedimiento": "Vigilancia hospitalaria con control de accesos y apoyo en códigos de emergencia",
+      "dependencia": "Hospital General de Muestra (ficticio)",
+      "siglas": "HGMU",
+      "unidad_compradora": "Coordinación de Servicios Generales (ficticia)",
+      "entidad_federativa": "Nuevo León",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "En evaluación",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-08-27",
+      "fecha_junta_aclaraciones": "2026-09-03T10:00:00",
+      "fecha_apertura": "2026-09-11T11:00:00",
+      "fecha_fallo": "2026-09-17T13:00:00",
+      "monto_minimo": 18500000,
+      "monto_maximo": 24900000,
+      "numero_guardias": 72,
+      "numero_guardias_maximo": 90,
+      "turnos": [
+        "24x24",
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 82,
+          "tamano_kb": 1567,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1902,
+          "tiempos": {
+            "descarga_seg": 1.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 3.4
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 36,
+          "tamano_kb": 1971,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2515,
+          "tiempos": {
+            "descarga_seg": 2.2,
+            "clasificacion_seg": 0.7,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.9
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 21,
+          "tamano_kb": 425,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1848,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.6
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 9,
+          "tamano_kb": 3758,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 16,
+          "tiempos": {
+            "descarga_seg": 3.0,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 38.1,
+            "extraccion_seg": 0.8
+          }
+        },
+        {
+          "nombre": "Relación de inmuebles.pdf",
+          "tipo": "Relación de inmuebles",
+          "formato": "pdf",
+          "paginas": 4,
+          "tamano_kb": 271,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2094,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.5
+          }
+        },
+        {
+          "nombre": "Formato de propuesta económica.docx",
+          "tipo": "Formato de propuesta económica",
+          "formato": "docx",
+          "paginas": 5,
+          "tamano_kb": 151,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2171,
+          "tiempos": {
+            "descarga_seg": 0.6,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.6
+          }
+        },
+        {
+          "nombre": "Oficio de suficiencia presupuestal.pdf",
+          "tipo": "Oficio de suficiencia presupuestal",
+          "formato": "pdf",
+          "paginas": 2,
+          "tamano_kb": 589,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 19,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.2,
+            "ocr_seg": 8.5,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 54.2
+    },
+    {
+      "id": "DEMO-2026-0104",
+      "codigo_expediente": "DEMO-EXP-2026-0104",
+      "nombre_procedimiento": "Vigilancia perimetral extramuros con rondines nocturnos",
+      "dependencia": "Comisión Federal de Pruebas (ficticia)",
+      "siglas": "CFPR",
+      "unidad_compradora": "Gerencia de Abastecimiento (ficticia)",
+      "entidad_federativa": "Puebla",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Vigente",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-10",
+      "fecha_junta_aclaraciones": "2026-09-17T10:00:00",
+      "fecha_apertura": "2026-09-25T11:00:00",
+      "fecha_fallo": "2026-10-01T13:00:00",
+      "monto_minimo": 2900000,
+      "monto_maximo": 3600000,
+      "numero_guardias": 18,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "24x24"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.pdf",
+          "tipo": "Convocatoria",
+          "formato": "pdf",
+          "paginas": 41,
+          "tamano_kb": 3261,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1865,
+          "tiempos": {
+            "descarga_seg": 2.4,
+            "clasificacion_seg": 0.7,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.0
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 12,
+          "tamano_kb": 3148,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 10,
+          "tiempos": {
+            "descarga_seg": 3.1,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 43.5,
+            "extraccion_seg": 0.9
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 15,
+          "tamano_kb": 504,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2384,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.3
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 33.0
+    },
+    {
+      "id": "DEMO-2026-0105",
+      "codigo_expediente": "DEMO-EXP-2026-0105",
+      "nombre_procedimiento": "Vigilancia de campus universitario y control de acceso peatonal",
+      "dependencia": "Universidad Tecnológica Ficticia del Centro (ficticia)",
+      "siglas": "UTFC",
+      "unidad_compradora": "Departamento de Compras (ficticio)",
+      "entidad_federativa": "Querétaro",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Recepción de proposiciones",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-07",
+      "fecha_junta_aclaraciones": "2026-09-14T10:00:00",
+      "fecha_apertura": "2026-09-22T11:00:00",
+      "fecha_fallo": "2026-09-28T13:00:00",
+      "monto_minimo": 5400000,
+      "monto_maximo": 7200000,
+      "numero_guardias": 40,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 55,
+          "tamano_kb": 1601,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1628,
+          "tiempos": {
+            "descarga_seg": 1.5,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.7
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 17,
+          "tamano_kb": 1293,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1383,
+          "tiempos": {
+            "descarga_seg": 1.4,
+            "clasificacion_seg": 0.6,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.3
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 14,
+          "tamano_kb": 379,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1210,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.9
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 7,
+          "tamano_kb": 341,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2625,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.6
+          }
+        },
+        {
+          "nombre": "Formato de propuesta económica.docx",
+          "tipo": "Formato de propuesta económica",
+          "formato": "docx",
+          "paginas": 4,
+          "tamano_kb": 86,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2248,
+          "tiempos": {
+            "descarga_seg": 0.6,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.5
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 38.3
+    },
+    {
+      "id": "DEMO-2026-0106",
+      "codigo_expediente": "DEMO-EXP-2026-0106",
+      "nombre_procedimiento": "Vigilancia y monitoreo de CCTV en centro de datos, con limpieza de áreas comunes",
+      "dependencia": "Agencia Nacional de Datos Sintéticos (ficticia)",
+      "siglas": "ANDS",
+      "unidad_compradora": "Unidad de Administración y Finanzas (ficticia)",
+      "entidad_federativa": "Yucatán",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Vigente",
+      "partidas": [
+        "33801",
+        "35801"
+      ],
+      "fecha_publicacion": "2026-09-11",
+      "fecha_junta_aclaraciones": "2026-09-18T10:00:00",
+      "fecha_apertura": "2026-09-26T11:00:00",
+      "fecha_fallo": "2026-10-02T13:00:00",
+      "monto_minimo": null,
+      "monto_maximo": 6000000,
+      "numero_guardias": 22,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "24x24"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.pdf",
+          "tipo": "Convocatoria",
+          "formato": "pdf",
+          "paginas": 47,
+          "tamano_kb": 2956,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1477,
+          "tiempos": {
+            "descarga_seg": 2.4,
+            "clasificacion_seg": 0.8,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 3.4
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 26,
+          "tamano_kb": 2053,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1542,
+          "tiempos": {
+            "descarga_seg": 1.9,
+            "clasificacion_seg": 0.6,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.0
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 17,
+          "tamano_kb": 371,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2024,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.3
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 5,
+          "tamano_kb": 1460,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 17,
+          "tiempos": {
+            "descarga_seg": 1.7,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 22.6,
+            "extraccion_seg": 0.6
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 33.9
+    },
+    {
+      "id": "DEMO-2026-0107",
+      "codigo_expediente": "DEMO-EXP-2026-0107",
+      "nombre_procedimiento": "Vigilancia armada en recinto portuario de ejemplo",
+      "dependencia": "Servicio Nacional de Maquetas (ficticio)",
+      "siglas": "SNMQ",
+      "unidad_compradora": "Gerencia de Recursos Materiales (ficticia)",
+      "entidad_federativa": "Veracruz",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Fallo emitido",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-08-24",
+      "fecha_junta_aclaraciones": "2026-08-31T10:00:00",
+      "fecha_apertura": "2026-09-08T11:00:00",
+      "fecha_fallo": "2026-09-14T13:00:00",
+      "monto_minimo": 15200000,
+      "monto_maximo": 19800000,
+      "numero_guardias": 64,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "24x24",
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 71,
+          "tamano_kb": 1525,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1646,
+          "tiempos": {
+            "descarga_seg": 1.4,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 4.2
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 29,
+          "tamano_kb": 2345,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1736,
+          "tiempos": {
+            "descarga_seg": 2.3,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.4
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 19,
+          "tamano_kb": 379,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2476,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.2
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 8,
+          "tamano_kb": 3013,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 13,
+          "tiempos": {
+            "descarga_seg": 2.3,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 25.9,
+            "extraccion_seg": 0.6
+          }
+        },
+        {
+          "nombre": "Relación de inmuebles.pdf",
+          "tipo": "Relación de inmuebles",
+          "formato": "pdf",
+          "paginas": 5,
+          "tamano_kb": 1709,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 0,
+          "tiempos": {
+            "descarga_seg": 1.5,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 19.9,
+            "extraccion_seg": 0.6
+          }
+        },
+        {
+          "nombre": "Oficio de suficiencia presupuestal.pdf",
+          "tipo": "Oficio de suficiencia presupuestal",
+          "formato": "pdf",
+          "paginas": 2,
+          "tamano_kb": 770,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 7,
+          "tiempos": {
+            "descarga_seg": 1.0,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 7.7,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 45.5
+    },
+    {
+      "id": "DEMO-2026-0108",
+      "codigo_expediente": "DEMO-EXP-2026-0108",
+      "nombre_procedimiento": "Vigilancia para delegación regional",
+      "dependencia": "Instituto Nacional de Ejemplo (ficticio)",
+      "siglas": "INEJ",
+      "unidad_compradora": "Delegación Regional Noroeste (ficticia)",
+      "entidad_federativa": "Sonora",
+      "tipo_procedimiento": "Invitación a cuando menos tres personas",
+      "caracter": "Nacional",
+      "estatus": "Vigente",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-09",
+      "fecha_junta_aclaraciones": "2026-09-16T10:00:00",
+      "fecha_apertura": "2026-09-24T11:00:00",
+      "fecha_fallo": "2026-09-30T13:00:00",
+      "monto_minimo": 1900000,
+      "monto_maximo": 2400000,
+      "numero_guardias": 14,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 38,
+          "tamano_kb": 872,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1316,
+          "tiempos": {
+            "descarga_seg": 1.2,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.4
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 11,
+          "tamano_kb": 539,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2135,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.7
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 13,
+          "tamano_kb": 263,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1456,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.8
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 29.2
+    },
+    {
+      "id": "DEMO-2026-0109",
+      "codigo_expediente": "DEMO-EXP-2026-0109",
+      "nombre_procedimiento": "Custodia de archivo documental y control de préstamo de expedientes",
+      "dependencia": "Fideicomiso de Archivos de Prueba (ficticio)",
+      "siglas": "FAPR",
+      "unidad_compradora": "Gerencia Administrativa (ficticia)",
+      "entidad_federativa": "Guanajuato",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Recepción de proposiciones",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-01",
+      "fecha_junta_aclaraciones": "2026-09-08T10:00:00",
+      "fecha_apertura": "2026-09-16T11:00:00",
+      "fecha_fallo": "2026-09-22T13:00:00",
+      "monto_minimo": 1400000,
+      "monto_maximo": 1800000,
+      "numero_guardias": 12,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "8 horas",
+        "24x24"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.pdf",
+          "tipo": "Convocatoria",
+          "formato": "pdf",
+          "paginas": 36,
+          "tamano_kb": 1926,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1504,
+          "tiempos": {
+            "descarga_seg": 2.1,
+            "clasificacion_seg": 0.7,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.3
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 9,
+          "tamano_kb": 487,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2030,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.7
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 12,
+          "tamano_kb": 255,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1818,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.0
+          }
+        },
+        {
+          "nombre": "Oficio de suficiencia presupuestal.pdf",
+          "tipo": "Oficio de suficiencia presupuestal",
+          "formato": "pdf",
+          "paginas": 1,
+          "tamano_kb": 366,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 27,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 4.8,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 31.5
+    },
+    {
+      "id": "DEMO-2026-0110",
+      "codigo_expediente": "DEMO-EXP-2026-0110",
+      "nombre_procedimiento": "Vigilancia de centros regionales en seis localidades",
+      "dependencia": "Centro Regional de Demostración (ficticio)",
+      "siglas": "CRDM",
+      "unidad_compradora": "Coordinación Administrativa (ficticia)",
+      "entidad_federativa": "Chiapas",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "En evaluación",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-08-31",
+      "fecha_junta_aclaraciones": "2026-09-07T10:00:00",
+      "fecha_apertura": "2026-09-15T11:00:00",
+      "fecha_fallo": "2026-09-21T13:00:00",
+      "monto_minimo": 4200000,
+      "monto_maximo": 5900000,
+      "numero_guardias": 30,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "24x24"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 52,
+          "tamano_kb": 1527,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1702,
+          "tiempos": {
+            "descarga_seg": 1.5,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 3.7
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 18,
+          "tamano_kb": 5428,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 34,
+          "tiempos": {
+            "descarga_seg": 4.6,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 86.0,
+            "extraccion_seg": 1.2
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 16,
+          "tamano_kb": 538,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2589,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.9
+          }
+        },
+        {
+          "nombre": "Relación de inmuebles.pdf",
+          "tipo": "Relación de inmuebles",
+          "formato": "pdf",
+          "paginas": 4,
+          "tamano_kb": 1196,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 35,
+          "tiempos": {
+            "descarga_seg": 1.6,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 13.5,
+            "extraccion_seg": 0.5
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 6,
+          "tamano_kb": 358,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1168,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.6
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 40.1
+    },
+    {
+      "id": "DEMO-2026-0111",
+      "codigo_expediente": "DEMO-EXP-2026-0111",
+      "nombre_procedimiento": "Vigilancia en unidad médica de ejemplo",
+      "dependencia": "Hospital General de Muestra (ficticio)",
+      "siglas": "HGMU",
+      "unidad_compradora": "Unidad Médica Regional Sur (ficticia)",
+      "entidad_federativa": "Oaxaca",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Vigente",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-12",
+      "fecha_junta_aclaraciones": "2026-09-19T10:00:00",
+      "fecha_apertura": "2026-09-27T11:00:00",
+      "fecha_fallo": "2026-10-03T13:00:00",
+      "monto_minimo": 3700000,
+      "monto_maximo": 4600000,
+      "numero_guardias": 26,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 49,
+          "tamano_kb": 1052,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2446,
+          "tiempos": {
+            "descarga_seg": 1.4,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.2
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 15,
+          "tamano_kb": 790,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1788,
+          "tiempos": {
+            "descarga_seg": 1.0,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.2
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 15,
+          "tamano_kb": 489,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1678,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.9
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 4,
+          "tamano_kb": 1623,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 5,
+          "tiempos": {
+            "descarga_seg": 1.4,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 18.8,
+            "extraccion_seg": 0.5
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 41.4
+    },
+    {
+      "id": "DEMO-2026-0112",
+      "codigo_expediente": "DEMO-EXP-2026-0112",
+      "nombre_procedimiento": "Vigilancia armada en patios de maniobras y talleres",
+      "dependencia": "Organismo de Infraestructura Imaginaria (ficticio)",
+      "siglas": "OINI",
+      "unidad_compradora": "Gerencia de Adquisiciones (ficticia)",
+      "entidad_federativa": "Baja California",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Recepción de proposiciones",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-04",
+      "fecha_junta_aclaraciones": "2026-09-11T10:00:00",
+      "fecha_apertura": "2026-09-19T11:00:00",
+      "fecha_fallo": "2026-09-25T13:00:00",
+      "monto_minimo": 8900000,
+      "monto_maximo": 11300000,
+      "numero_guardias": 44,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "24x24",
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.pdf",
+          "tipo": "Convocatoria",
+          "formato": "pdf",
+          "paginas": 60,
+          "tamano_kb": 3251,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1654,
+          "tiempos": {
+            "descarga_seg": 3.2,
+            "clasificacion_seg": 1.0,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 4.3
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 24,
+          "tamano_kb": 1097,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1400,
+          "tiempos": {
+            "descarga_seg": 1.4,
+            "clasificacion_seg": 0.6,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.4
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 18,
+          "tamano_kb": 479,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1498,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.0
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 7,
+          "tamano_kb": 2207,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 21,
+          "tiempos": {
+            "descarga_seg": 2.3,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 29.2,
+            "extraccion_seg": 0.7
+          }
+        },
+        {
+          "nombre": "Formato de propuesta económica.docx",
+          "tipo": "Formato de propuesta económica",
+          "formato": "docx",
+          "paginas": 4,
+          "tamano_kb": 102,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2580,
+          "tiempos": {
+            "descarga_seg": 0.6,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.5
+          }
+        },
+        {
+          "nombre": "Oficio de suficiencia presupuestal.pdf",
+          "tipo": "Oficio de suficiencia presupuestal",
+          "formato": "pdf",
+          "paginas": 2,
+          "tamano_kb": 542,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 6,
+          "tiempos": {
+            "descarga_seg": 0.9,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 7.0,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 42.5
+    },
+    {
+      "id": "DEMO-2026-0113",
+      "codigo_expediente": "DEMO-EXP-2026-0113",
+      "nombre_procedimiento": "Vigilancia para oficinas administrativas y bodega",
+      "dependencia": "Secretaría de Servicios Simulados (ficticia)",
+      "siglas": "SSSIM",
+      "unidad_compradora": "Dirección General de Administración (ficticia)",
+      "entidad_federativa": "Estado de México",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Fallo emitido",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-07-20",
+      "fecha_junta_aclaraciones": "2026-07-27T10:00:00",
+      "fecha_apertura": "2026-08-04T11:00:00",
+      "fecha_fallo": "2026-08-10T13:00:00",
+      "monto_minimo": 3900000,
+      "monto_maximo": 5100000,
+      "numero_guardias": 28,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 57,
+          "tamano_kb": 1763,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2147,
+          "tiempos": {
+            "descarga_seg": 1.6,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 4.0
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 18,
+          "tamano_kb": 840,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1268,
+          "tiempos": {
+            "descarga_seg": 1.2,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.9
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 16,
+          "tamano_kb": 468,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1924,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.0
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 5,
+          "tamano_kb": 295,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2450,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.6
+          }
+        },
+        {
+          "nombre": "Relación de inmuebles.pdf",
+          "tipo": "Relación de inmuebles",
+          "formato": "pdf",
+          "paginas": 2,
+          "tamano_kb": 149,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1403,
+          "tiempos": {
+            "descarga_seg": 0.6,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 37.2
+    },
+    {
+      "id": "DEMO-2026-0114",
+      "codigo_expediente": "DEMO-EXP-2026-0114",
+      "nombre_procedimiento": "Vigilancia de unidad académica foránea",
+      "dependencia": "Universidad Tecnológica Ficticia del Centro (ficticia)",
+      "siglas": "UTFC",
+      "unidad_compradora": "Unidad Académica Foránea (ficticia)",
+      "entidad_federativa": "Michoacán",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Vigente",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-09-14",
+      "fecha_junta_aclaraciones": "2026-09-21T10:00:00",
+      "fecha_apertura": "2026-09-29T11:00:00",
+      "fecha_fallo": "2026-10-05T13:00:00",
+      "monto_minimo": 2200000,
+      "monto_maximo": 2800000,
+      "numero_guardias": 16,
+      "numero_guardias_maximo": null,
+      "turnos": [
+        "24x24"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.pdf",
+          "tipo": "Convocatoria",
+          "formato": "pdf",
+          "paginas": 40,
+          "tamano_kb": 3164,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1540,
+          "tiempos": {
+            "descarga_seg": 3.0,
+            "clasificacion_seg": 0.7,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.9
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 12,
+          "tamano_kb": 930,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1351,
+          "tiempos": {
+            "descarga_seg": 1.1,
+            "clasificacion_seg": 0.5,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.1
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 13,
+          "tamano_kb": 339,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1774,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.8
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 32.3
+    },
+    {
+      "id": "DEMO-2026-0115",
+      "codigo_expediente": "DEMO-EXP-2026-0115",
+      "nombre_procedimiento": "Vigilancia con arcos detectores y control de visitantes",
+      "dependencia": "Agencia Nacional de Datos Sintéticos (ficticia)",
+      "siglas": "ANDS",
+      "unidad_compradora": "Dirección de Servicios Generales (ficticia)",
+      "entidad_federativa": "Coahuila",
+      "tipo_procedimiento": "Licitación pública",
+      "caracter": "Nacional",
+      "estatus": "Fallo emitido",
+      "partidas": [
+        "33801"
+      ],
+      "fecha_publicacion": "2026-06-15",
+      "fecha_junta_aclaraciones": "2026-06-22T10:00:00",
+      "fecha_apertura": "2026-06-30T11:00:00",
+      "fecha_fallo": "2026-07-06T13:00:00",
+      "monto_minimo": 6600000,
+      "monto_maximo": 9400000,
+      "numero_guardias": 34,
+      "numero_guardias_maximo": 42,
+      "turnos": [
+        "12x12"
+      ],
+      "documentos": [
+        {
+          "nombre": "Convocatoria.docx",
+          "tipo": "Convocatoria",
+          "formato": "docx",
+          "paginas": 68,
+          "tamano_kb": 1693,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2035,
+          "tiempos": {
+            "descarga_seg": 1.7,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 3.3
+          }
+        },
+        {
+          "nombre": "Anexo técnico.pdf",
+          "tipo": "Anexo técnico",
+          "formato": "pdf",
+          "paginas": 27,
+          "tamano_kb": 1618,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2185,
+          "tiempos": {
+            "descarga_seg": 1.5,
+            "clasificacion_seg": 0.6,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 2.0
+          }
+        },
+        {
+          "nombre": "Modelo de contrato.docx",
+          "tipo": "Modelo de contrato",
+          "formato": "docx",
+          "paginas": 19,
+          "tamano_kb": 415,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2307,
+          "tiempos": {
+            "descarga_seg": 0.8,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 1.4
+          }
+        },
+        {
+          "nombre": "Acta de junta de aclaraciones.pdf",
+          "tipo": "Acta de junta de aclaraciones",
+          "formato": "pdf",
+          "paginas": 6,
+          "tamano_kb": 2018,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 18,
+          "tiempos": {
+            "descarga_seg": 2.0,
+            "clasificacion_seg": 0.3,
+            "ocr_seg": 27.5,
+            "extraccion_seg": 0.7
+          }
+        },
+        {
+          "nombre": "Relación de inmuebles.pdf",
+          "tipo": "Relación de inmuebles",
+          "formato": "pdf",
+          "paginas": 3,
+          "tamano_kb": 227,
+          "clasificacion": "texto",
+          "chars_por_pagina": 1339,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.4,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.4
+          }
+        },
+        {
+          "nombre": "Formato de propuesta económica.docx",
+          "tipo": "Formato de propuesta económica",
+          "formato": "docx",
+          "paginas": 6,
+          "tamano_kb": 110,
+          "clasificacion": "texto",
+          "chars_por_pagina": 2549,
+          "tiempos": {
+            "descarga_seg": 0.6,
+            "clasificacion_seg": 0.1,
+            "ocr_seg": 0.0,
+            "extraccion_seg": 0.5
+          }
+        },
+        {
+          "nombre": "Oficio de suficiencia presupuestal.pdf",
+          "tipo": "Oficio de suficiencia presupuestal",
+          "formato": "pdf",
+          "paginas": 1,
+          "tamano_kb": 353,
+          "clasificacion": "escaneado",
+          "chars_por_pagina": 25,
+          "tiempos": {
+            "descarga_seg": 0.7,
+            "clasificacion_seg": 0.2,
+            "ocr_seg": 4.6,
+            "extraccion_seg": 0.4
+          }
+        }
+      ],
+      "tiempo_ficha_seg": 44.3
+    }
+  ]
+}

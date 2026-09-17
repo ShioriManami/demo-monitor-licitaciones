@@ -1,0 +1,30 @@
+[server]
+headless = true
+runOnSave = false
+
+[browser]
+# La demo no envía métricas de uso a terceros.
+gatherUsageStats = false
+
+[logger]
+# En modo headless, el mensaje de bienvenida consulta la IP pública de la
+# máquina para mostrar la "External URL". Se oculta para que arrancar la demo
+# no haga ninguna petición externa. La app queda en http://localhost:8501.
+hideWelcomeMessage = true
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+
+[theme]
+base = "dark"
+primaryColor = "#4991e5"
+backgroundColor = "#0f1520"
+secondaryBackgroundColor = "#172131"
+textColor = "#e6ebf2"
+linkColor = "#7fb2ee"
+borderColor = "#2a3548"
+baseRadius = "0.6rem"
+showWidgetBorder = true
+metricValueFontSize = "1.55rem"
+chartCategoricalColors = ["#3987e5", "#199e70", "#d95926", "#9085e9", "#c98500"]
